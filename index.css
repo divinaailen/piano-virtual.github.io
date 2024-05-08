@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+header {
+
+margin:10px;
+border:2px cornsilk;
+color: rgb(128, 144, 177);
+}
+body{
+    border:3px ;
+}
+ .piano{
+    font-family: "Yatra One", system-ui;
+    color: rgb(99, 144, 220);
+    text-decoration: underline;
+    text-align: center;
+    margin: 0;
+ }
+
+ .logo-container{
+    text-align:center;
+ }
+
+ section{
+    border: 3px solid rgb(255, 255, 255) ;
+    height: 250px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    display: flex ;
+    flex-direction: column-reverse;
+ }
+ main {
+   position: relative;
+    display: flex; 
+    justify-content:center ;
+    border: 1px;
+    margin: 10px;
+    padding: 5px;
+    color: rgb(255, 255, 255) ;
+ }
+ body{
+   background-image: url(img/cielo-estrellado-nocturno-fondos-de-pantalla.jpg);
+ }
+ footer{
+   color:azure;
+  font-family: "Lugrasimo", cursive;
+ }
+ .negro {
+   position: absolute;
+
+   width:2%;
+   color: rgb(250, 255, 254);
+   background-color: black;
+   height: 100px;
+   border:10px rgb(21, 21, 21);
+ }
+ .tecla3 {
+   top: 5;
+   left: 60px;
+ }
+ .tecla5{
+   top:5;
+   left:149px ;
+ }
+ .tecla2{
+  top: 5;
+  left: 234px;
+ }
+ .tecla1{
+  top:5;
+  left:398px;
+ }
+ .tecla4{
+  top: 5;
+  left: 479px;
+ }
+ .tecla6{
+  top: 5;
+  left:731px;
+ }
+ .tecla7{
+  top: 5;
+left:315px;
+ }
+ .tecla8{
+  top:5;
+  right: 478px
+ }
+ .tecla9{
+  top:5;
+  left:564px;
+ }
+ .teclañ{
+  top:5;
+  right:310px;
+ }
+ .teclaA{
+  top:5;
+  right:230px;
+ }
+ .teclaF{
+top:5;
+right:150px;
+ }
+ .teclaJ{
+top:5;
+right:60px;
+ }
